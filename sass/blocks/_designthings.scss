@@ -1,0 +1,41 @@
+.design-things-row {
+    padding-top: 130px;
+    display: flex;
+    column-gap: 80px;
+    align-items: flex-start;
+}
+
+.design-things-text {
+    max-width: 550px;
+
+    span {
+        color: $accent-pink;
+        font-weight: 400;
+        font-size: 28px;
+    }
+
+    h1 {
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 62px;
+        color: #56597A;
+        padding-bottom: 30px;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 35px;
+        padding-bottom: 20px;
+    }
+
+    .design-things-button {
+        margin-top: 20px;
+    }
+}
+
+.design-things-img {
+    img {
+        height: 560px;
+    }
+}

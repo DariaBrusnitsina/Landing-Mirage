@@ -1,0 +1,41 @@
+.teamwork-row {
+    padding-top: 130px;
+    display: flex;
+    column-gap: 80px;
+    align-items: flex-start;
+}
+
+.teamwork-text {
+    max-width: 540px;
+
+    span {
+        color: $accent-pink;
+        font-weight: 400;
+        font-size: 28px;
+    }
+
+    h1 {
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 62px;
+        color: #56597A;
+        padding-bottom: 30px;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 35px;
+        padding-bottom: 20px;
+    }
+
+    .teamwork-button {
+        margin-top: 20px;
+    }
+}
+
+.teamwork-img {
+    img {
+        height: 560px;
+    }
+}

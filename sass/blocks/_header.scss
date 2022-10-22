@@ -1,0 +1,33 @@
+.header-row {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+
+.header-text {
+    position: relative;
+    max-width: 600px;
+
+    span {
+        color: $accent-pink;
+        font-weight: 400;
+        font-size: 28px;
+    }
+
+    h1 {
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 74px;
+        color: #56597A;
+        padding-bottom: 30px;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 35px;
+        padding-bottom: 40px;
+    }
+
+}
