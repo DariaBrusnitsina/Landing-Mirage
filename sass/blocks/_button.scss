@@ -1,26 +1,21 @@
 .button {
-    position: absolute;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 
     width: 216px;
     height: 66px;
-
-    background-color: $accent-pink;
-    padding: 20px 18px 20px 18px;
     border-radius: 4px;
 
     transition: background-color 0.2s ease-in, color 0.2s ease-in;
     
-    p {
-        color: white;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 30px;
+    background-color: $accent-pink;
+
+    span, img {
+        color: #FFFFFF;
     }
 
     &:hover {
-        background-color: #dd558c
-
+        background-color: #DD558C
     }
 }

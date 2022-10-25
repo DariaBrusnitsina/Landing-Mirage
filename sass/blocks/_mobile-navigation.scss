@@ -1,0 +1,53 @@
+.nav-button {
+    cursor: pointer;
+
+    position: relative;
+    z-index: 9;
+    display: block;
+
+    width: 30px;
+    height: 3px;
+
+    border-radius: 2px;
+    background-color: $text-grey;
+
+    &:focus {
+        outline: none;
+    }
+
+    &:active {
+        outline: none;
+    }
+}
+
+.nav-button__icon {
+    &::before {
+        position: absolute;
+
+        content: '';
+        display: block;
+
+        width: 30px;
+        height: 3px;
+        left: 0;
+        top: -9px;
+
+        border-radius: 2px;
+        background-color: $text-grey;
+    }
+
+    &::after {
+        position: absolute;
+
+        content: '';
+        display: block;
+
+        width: 30px;
+        height: 3px;
+        left: 0;
+        bottom: -9px;
+
+        border-radius: 2px;
+        background-color: $text-grey;
+    }
+}

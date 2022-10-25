@@ -4,12 +4,15 @@
 @import "./base/vars";
 
 //Blocks
-@import "./blocks/nav";
+@import "./blocks/navigation";
+@import "./blocks/mobile-navigation";
 @import "./blocks/header";
 @import "./blocks/button";
 @import "./blocks/services";
-@import "./blocks/designthings";
+@import "./blocks/service-card";
+@import "./blocks/design-things";
 @import "./blocks/teamwork";
-
-// @import "./blocks/otherproducts";
-// @import "./blocks/footer";
+@import "./blocks/testimonial";
+@import "./blocks/brands";
+@import "./blocks/subscribe";
+@import "./blocks/footer";
